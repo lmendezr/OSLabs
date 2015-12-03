@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/denix53/icom5007/lab1/myterm/src/command.cxx
+command.h
+/home/denix53/icom5007/lab1/myterm/src/command.h
+iostream
+-
+sys/wait.h
+-
+boost/xpressive/xpressive.hpp
+-
+
+/home/denix53/icom5007/lab1/myterm/src/command.h
+string
+-
+vector
+-
+
+/home/denix53/icom5007/lab1/myterm/src/shell.cxx
+iostream
+-
+command.h
+/home/denix53/icom5007/lab1/myterm/src/command.h
+
